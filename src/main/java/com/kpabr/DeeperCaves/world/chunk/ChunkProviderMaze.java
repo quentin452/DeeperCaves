@@ -77,7 +77,7 @@ public class ChunkProviderMaze extends ChunkProviderGenerate implements IChunkPr
     double[] field_147425_f;
     double[] field_147426_g;
     int[][] field_73219_j = new int[32][32];
-    private static final String __OBFID = "CL_00000396";
+    
 
     {
         caveGenerator = TerrainGen.getModdedMapGen(caveGenerator, CAVE);

@@ -80,7 +80,6 @@ public class ChunkProviderBedrockPlains extends ChunkProviderGenerate implements
     double[] field_147425_f;
     double[] field_147426_g;
     int[][] field_73219_j = new int[32][32];
-    private static final String __OBFID = "CL_00000396";
 
     {
         caveGenerator = TerrainGen.getModdedMapGen(caveGenerator, CAVE);
@@ -89,7 +88,7 @@ public class ChunkProviderBedrockPlains extends ChunkProviderGenerate implements
         mineshaftGenerator = (MapGenMineshaft) TerrainGen.getModdedMapGen(mineshaftGenerator, MINESHAFT);
         scatteredFeatureGenerator = (MapGenScatteredFeature) TerrainGen.getModdedMapGen(scatteredFeatureGenerator, SCATTERED_FEATURE);
         ravineGenerator = TerrainGen.getModdedMapGen(ravineGenerator, RAVINE);
-    }    
+    }
 
     public ChunkProviderBedrockPlains(World par1World, long par2, boolean par4)
     {
@@ -257,7 +256,7 @@ public class ChunkProviderBedrockPlains extends ChunkProviderGenerate implements
                     {
                     	p_147422_3_[i2] = DeeperCaves.blocks.nearNetherPortal;
                     }
-                    
+
                 }
             }
 
@@ -420,7 +419,7 @@ public class ChunkProviderBedrockPlains extends ChunkProviderGenerate implements
             }
         }
     }
-    
+
     /**
      * Populates chunk with ores etc etc
      */

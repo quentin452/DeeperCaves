@@ -27,7 +27,6 @@ import net.minecraft.world.World;
 public class BlockDeeperPortal extends BlockBase
 {
     public static boolean field_149948_a;
-    private static final String __OBFID = "CL_00000236";
     private int dim;
 
     public BlockDeeperPortal(Material p_i45404_1_, int dimension)
@@ -35,7 +34,7 @@ public class BlockDeeperPortal extends BlockBase
         super(p_i45404_1_);
         this.setLightLevel(1.0F);
         this.dim = dimension;
-        
+
     }
 
     /**
@@ -67,7 +66,7 @@ public class BlockDeeperPortal extends BlockBase
     {
         if (p_149670_5_.ridingEntity == null && p_149670_5_.riddenByEntity == null && !p_149670_1_.isRemote)
         {
-        
+
         	try
         	{
         	EntityPlayerMP player = (EntityPlayerMP)p_149670_5_;
@@ -83,7 +82,7 @@ public class BlockDeeperPortal extends BlockBase
         }
     }
 
-    
+
 
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister p_149651_1_)

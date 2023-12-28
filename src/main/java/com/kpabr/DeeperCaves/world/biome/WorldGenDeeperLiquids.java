@@ -12,7 +12,6 @@ public class WorldGenDeeperLiquids extends WorldGenLiquids
 {
     private Block field_150521_a;
     private Block replaceBlock;
-    private static final String __OBFID = "CL_00000434";
 
     public WorldGenDeeperLiquids(Block p_i45465_1_)
     {

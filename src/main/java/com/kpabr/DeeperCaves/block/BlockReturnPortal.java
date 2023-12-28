@@ -26,13 +26,12 @@ import net.minecraft.world.World;
 public class BlockReturnPortal extends BlockBase
 {
     public static boolean field_149948_a;
-    private static final String __OBFID = "CL_00000236";
 
     public BlockReturnPortal(Material p_i45404_1_)
     {
         super(p_i45404_1_);
         this.setLightLevel(1.0F);
-        
+
     }
 
     /**
@@ -64,7 +63,7 @@ public class BlockReturnPortal extends BlockBase
     {
         if (p_149670_5_.ridingEntity == null && p_149670_5_.riddenByEntity == null && !p_149670_1_.isRemote)
         {
-        
+
         	//p_149670_5_.timeUntilPortal = 100;
         	try
         	{
@@ -84,7 +83,7 @@ public class BlockReturnPortal extends BlockBase
         }
     }
 
-    
+
 
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister p_149651_1_)

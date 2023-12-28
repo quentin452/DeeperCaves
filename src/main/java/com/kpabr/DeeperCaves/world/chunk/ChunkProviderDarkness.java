@@ -81,7 +81,6 @@ public class ChunkProviderDarkness extends ChunkProviderGenerate implements IChu
     double[] field_147425_f;
     double[] field_147426_g;
     int[][] field_73219_j = new int[32][32];
-    private static final String __OBFID = "CL_00000396";
 
     {
         caveGenerator = TerrainGen.getModdedMapGen(caveGenerator, CAVE);
@@ -90,7 +89,7 @@ public class ChunkProviderDarkness extends ChunkProviderGenerate implements IChu
         mineshaftGenerator = (MapGenMineshaft) TerrainGen.getModdedMapGen(mineshaftGenerator, MINESHAFT);
         scatteredFeatureGenerator = (MapGenScatteredFeature) TerrainGen.getModdedMapGen(scatteredFeatureGenerator, SCATTERED_FEATURE);
         ravineGenerator = TerrainGen.getModdedMapGen(ravineGenerator, RAVINE);
-    }    
+    }
 
     public ChunkProviderDarkness(World par1World, long par2, boolean par4)
     {

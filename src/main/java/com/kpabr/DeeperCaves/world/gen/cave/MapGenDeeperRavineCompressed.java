@@ -12,7 +12,6 @@ import net.minecraft.world.gen.MapGenBase;
 public class MapGenDeeperRavineCompressed extends MapGenBase
 {
     private float[] field_75046_d = new float[1024];
-    private static final String __OBFID = "CL_00000390";
 
     protected void func_151540_a(long p_151540_1_, int p_151540_3_, int p_151540_4_, Block[] p_151540_5_, double p_151540_6_, double p_151540_8_, double p_151540_10_, float p_151540_12_, float p_151540_13_, float p_151540_14_, int p_151540_15_, int p_151540_16_, double p_151540_17_, int minHeight)
     {
@@ -239,9 +238,9 @@ public class MapGenDeeperRavineCompressed extends MapGenBase
     /**
      * Digs out the current block, default implementation removes stone, filler, and top block
      * Sets the block to lava if y is less then 10, and air other wise.
-     * If setting to air, it also checks to see if we've broken the surface and if so 
+     * If setting to air, it also checks to see if we've broken the surface and if so
      * tries to make the floor the biome's top block
-     * 
+     *
      * @param data Block data array
      * @param index Pre-calculated index into block data
      * @param x local X position
